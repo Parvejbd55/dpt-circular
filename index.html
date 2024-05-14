@@ -92,12 +92,14 @@
         </div>
       </nav>
 
-<div class="text-3xl border-b-2">
-  <h1 class="pl-24">Master Price</h1>
+<div>
+  <div class="text-3xl border-b-2">
+    <h1 class="pl-24">Master Price</h1>
+  </div>
 </div>
 
 
-<div class="container flex justify-center my-5">
+<div class="container mx-auto flex justify-center my-5">
   <div class="flex">
     <div class="text-black px-2 h-7 bg-white rounded-l-md text-center flex justify-center items-center border-violet-900 border-l-[1px] border-y-[1px]">Round Trip</div>
     <div class="text-white px-2 h-7 bg-violet-900 text-center flex justify-center items-center border-violet-900 border-l-[1px] border-y-[1px]">One Way</div>
@@ -106,96 +108,142 @@
 </div>
 
 
-<div class="container pr-10 pl-10 p-5 mb-32 border-b-blue-500 border-b-2 border-t-blue-500 border-t-2">
-  <!--Buttobn colors-->
-  <button class="bg-white px-10 py-1 text-black right-0 border-black border-l-[1px] border-[1px]">LHR</button>
-  <button class="bg-blue-50 px-10 py-1 text-black border-black border-l-[1px] border-[1px]">CDG</button>
-  <button class="bg-blue-50 px-8 py-1 text-black border-black border-l-[1px] border-[1px]">22-12-2022  📅</button>
-  <button class="bg-white px-8 py-1 text-black border-black border-l-[1px] border-[1px]">Day-  ⌄</button>
-  <button class="bg-white px-8 py-1 text-black border-black border-l-[1px] border-[1px]">Day+  ⌄</button>
-  <button class="bg-white px-8 py-1 text-black border-black border-l-[1px] border-[1px]">Anytime  ⌄</button>
-  <button class="bg-white px-8 py-1 text-black border-black border-l-[1px] border-[1px]">Day-  ⌄</button>
-  <p class="inline-block text-2xl">+</p>
-  <button class="bg-white px-8 py-1 text-black border-black border-l-[1px] border-[1px]">ADT-  ⌄</button>
-  <button class="bg-white px-8 py-1 text-black border-black border-l-[1px] border-[1px]">1 ⌄</button>
-  <p class="inline-block text-2xl">+</p>
-</div>
-
-<div class="border-b-2 border-blue-500">
-  <div class="flex gap-10 justify-between">
-    <div class="inline-flex items-center">
-      <label class="relative flex items-center p-3 cursor-pointer" htmlFor="custom-style1">
-        <input name="type" type="radio"
-          class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-gray-900/10 bg-gray-900/5 p-0 text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-0"
-          id="custom-style1" />
-        <span
-          class="absolute text-blue-900 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-            class="w-full h-full scale-105">
-            <path fill-rule="evenodd"
-              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-              clip-rule="evenodd"></path>
-          </svg>
-        </span>
-      </label>
-      <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style1">
-        <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
-          Extra Options
-        </p>
-      </label>
+<div class="container mx-auto">
+  <div class="border-b-blue-500 border-b-2 border-t-blue-500 border-t-2 pr-3 pl-3 p-5 mb-auto">
+    <!--Buttobn colors-->
+    <button class="bg-white px-10 py-1 text-black right-0 border-black border-l-[1px] border-[1px]">LHR</button>
+    <button class="bg-blue-50 px-10 py-1 text-black border-black border-l-[1px] border-[1px]">CDG</button>
+    <button class="bg-blue-50 px-10 py-1 justify-between text-black border-black border-l-[1px] border-[1px]">
+      <div class="inline-flex items-center">
+        <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style1">
+          <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
+            22-12-2022
+          </p>
+        </label>
+        <label class="relative flex items-center p-0 cursor-pointer" htmlFor="custom-style1">
+          <input name="type" type="date"
+            class="before:content[''] peer relative h-6 w-6 cursor-pointer appearance-none border border-gray-900/10 bg-gray-900/5 p-0 text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-0"
+            id="custom-style1" />
+          <span
+            class="absolute text-blue-900 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+              class="w-full h-full scale-105">
+              <path fill-rule="evenodd"
+                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                clip-rule="evenodd">
+              </path>
+            </svg>
+          </span>
+        </label>
+      </div>
+    </button>
+    <button class="text-black bg-white px-8 py-2 justify-between border-black border-l-[1px] border-[1px] hover:bg-blue-100 font-medium text-sm text-center inline-flex items-center" type="button"> Day - 
+      <svg class="w-2.5 h-2.5 ms-3">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+      </svg>
+    </button>
+    <button class="text-black bg-white px-8 py-2 justify-between border-black border-l-[1px] border-[1px] hover:bg-blue-100 font-medium text-sm text-center inline-flex items-center" type="button"> Day + 
+      <svg class="w-2.5 h-2.5 ms-3">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+      </svg>
+    </button>
+    <button class="text-black bg-white px-8 py-2 justify-between border-black border-l-[1px] border-[1px] hover:bg-blue-100 font-medium text-sm text-center inline-flex items-center" type="button"> Any time
+      <svg class="w-2.5 h-2.5 ms-3">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+      </svg>
+    </button>
+      
+    <p class="inline-block text-2xl">+</p>
+    <button class="text-black bg-white px-8 py-2 justify-between border-black border-l-[1px] border-[1px] hover:bg-blue-100 font-medium text-sm text-center inline-flex items-center" type="button"> DAY - 
+      <svg class="w-2.5 h-2.5 ms-3">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+      </svg>
+    </button>
+    <button class="text-black bg-white px-8 py-2 justify-between border-black border-l-[1px] border-[1px] hover:bg-blue-100 font-medium text-sm text-center inline-flex items-center" type="button"> DAY - 
+      <svg class="w-2.5 h-2.5 ms-3">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+      </svg>
+    </button>
+    <p class="inline-block text-2xl">+</p>
   </div>
+</div>
+  
 
 
-    <div class="flex gap-10">
-    <div class="inline-flex justify-center items-center">
-    </label>
-    <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style1">
-      <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
-        Environment
-      </p>
-    </label>
-      <label class="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor="custom-style1">
-        <input name="type" type="radio"
-          class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-gray-900/10 bg-gray-900/5 p-0 text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-0"
-          id="custom-style1" />
-        <span
-          class="absolute text-blue-900 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-            class="w-full h-full scale-105">
-            <path fill-rule="evenodd"
-              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-              clip-rule="evenodd"></path>
-          </svg>
-        </span>
-      </label>
-      <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style1">
-        <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
-          Dummy
-        </p>
-      </label>
-    </div>
-    <div class="inline-flex items-center">
-      <label class="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor="custom-style2">
-        <input name="type" type="radio"
-          class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-gray-900/10 bg-gray-900/5 p-0 text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-0"
-          id="custom-style2" checked />
-        <span
-          class="absolute text-blue-700 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-            class="w-full h-full scale-105">
-            <path fill-rule="evenodd"
-              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-              clip-rule="evenodd"></path>
-          </svg>
-        </span>
-      </label>
-      <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style2">
-        <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
-          PDT
-        </p>
-      </label>
-    </div>
-    <div class="">
+<div class="container mx-auto">
+  <div class="border-b-2 border-blue-500">
+    <div class="flex justify-between gap-10">
+        <div class="inline-flex items-center">
+          <label class="relative flex items-center p-3 cursor-pointer" htmlFor="custom-style1">
+            <input name="type" type="checkbox"
+              class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none border border-gray-900/10 bg-gray-900/5 p-0 text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-0"
+              id="custom-style1" />
+            <span
+              class="absolute text-blue-900 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="w-full h-full scale-105">
+                <path fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                  clip-rule="evenodd">
+                </path>
+              </svg>
+            </span>
+          </label>
+          <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style1">
+            <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
+              Extra Options
+            </p>
+          </label>
+        </div>
+
+
+      <div class="flex gap-10">
+        <div class="inline-flex items-center">
+          <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style1">
+            <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
+              Environment
+            </p>
+          </label>
+          <label class="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor="custom-style1">
+            <input name="type" type="radio"
+              class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-gray-900/10 bg-gray-900/5 p-0 text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-0"
+              id="custom-style1" />
+              <span class="absolute text-blue-900 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-full h-full scale-105">
+                  <path fill-rule="evenodd" 
+                    d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                    clip-rule="evenodd">
+                  </path>
+                </svg>
+              </span>
+          </label>
+          <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style1">
+            <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
+              Dummy
+            </p>
+          </label>
+        </div>
+        <div class="inline-flex items-center">
+          <label class="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor="custom-style2">
+            <input name="type" type="radio"
+              class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-gray-900/10 bg-gray-900/5 p-0 text-gray-900 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:before:bg-gray-900 hover:before:opacity-0"
+              id="custom-style2" checked />
+              <span class="absolute text-blue-700 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-full h-full scale-105">
+                  <path fill-rule="evenodd"
+                    d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                    clip-rule="evenodd">
+                  </path>
+                </svg>
+              </span>
+          </label>
+          <label class="mt-px font-light text-black cursor-pointer select-none" htmlFor="custom-style2">
+            <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-400">
+              PDT
+            </p>
+          </label>
+        </div>
+      </div>
       <div class="flex gap-10">
         <div class="inline-flex items-center">
           <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">Search</button>
@@ -204,10 +252,10 @@
     </div>
   </div>
 </div>
-</div>
+
 
 <div>
-  <div class="container p-2 mx-auto rounded-md sm:p-4 dark:text-gray-800 dark:bg-gray-50">
+  <div class="container p-2 mx-auto rounded-md sm:p-4 dark:text-gray-800 dark:bg-gray-700">
     <h2 class="mb-3 text-2xl font-semibold leading-tight">Data parsed successfully</h2>
     <div class="overflow-x-auto">
       <table class="min-w-full text-xs">
@@ -254,12 +302,12 @@
             <td class="px-3 py-2">
               <span>19H 00M</span>
             </td>
-            <td class="px-3 py-2">
+            <td class="px-6 py-2">
               <span>632.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -296,9 +344,9 @@
             <td class="px-3 py-2">
               <span>632.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -335,9 +383,9 @@
             <td class="px-3 py-2">
               <span>632.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -374,9 +422,9 @@
             <td class="px-3 py-2">
               <span>632.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -413,9 +461,9 @@
             <td class="px-3 py-2">
               <span>725.57</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -452,9 +500,9 @@
             <td class="px-3 py-2">
               <span>725.57</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -491,9 +539,9 @@
             <td class="px-3 py-2">
               <span>732.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -530,9 +578,9 @@
             <td class="px-3 py-2">
               <span>732.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -569,9 +617,9 @@
             <td class="px-3 py-2">
               <span>732.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -608,9 +656,9 @@
             <td class="px-3 py-2">
               <span>745.15</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -647,9 +695,9 @@
             <td class="px-3 py-2">
               <span>812.30</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -686,9 +734,9 @@
             <td class="px-3 py-2">
               <span>833.57</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -725,9 +773,9 @@
             <td class="px-3 py-2">
               <span>833.57</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -764,9 +812,9 @@
             <td class="px-3 py-2">
               <span>845.57</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -803,9 +851,9 @@
             <td class="px-3 py-2">
               <span>845.57</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -842,9 +890,9 @@
             <td class="px-3 py-2">
               <span>958.35</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -881,9 +929,9 @@
             <td class="px-3 py-2">
               <span>978.27</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -920,9 +968,9 @@
             <td class="px-3 py-2">
               <span>1028.46</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -959,9 +1007,9 @@
             <td class="px-3 py-2">
               <span>1032.06</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -998,9 +1046,9 @@
             <td class="px-3 py-2">
               <span>1037.57</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1037,9 +1085,9 @@
             <td class="px-3 py-2">
               <span>1048.38</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1076,9 +1124,9 @@
             <td class="px-3 py-2">
               <span>1051.98</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1115,9 +1163,9 @@
             <td class="px-3 py-2">
               <span>1406.82</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1140,23 +1188,23 @@
               <span>DAC - IST <br> IST - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T03:45:00 <br> 2022-11-22T06:40:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-23T05:40:00 <br> 2022-11-22T13:45:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <BR> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>15H 00M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>1406.82</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1164,38 +1212,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>QR 332 <br> QR 333</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>641 <br> 131</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>M <br> M</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> MJR4R1SO <br> MJR4R1SO</span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DOH <br> DOH - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T10:45:00 <br> 2022-11-23T09:30:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T13:45:00 <br> 2022-11-23T13:45:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <BR> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>32H 00M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>1410.42</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1203,38 +1251,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>QR 333 <br> QR 789 <br> VY 320</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>643 <br> 145 <br> 3692</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>M <br> M <br> M</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> MJR4R1SO <br> MJR4R1SO <br> MJR4R1SO </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DOH <br> DOH - BCN <br> BCN - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T03:55:00 <br> 2022-11-22T07:45:00 <br> 2022-11-22T16:10:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T06:55:00 <br> 2022-11-22T12:50:00<br> 2022-11-22T18:00:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>19H 05M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>1564.80</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1242,38 +1290,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>QR 333 <br> QR 789 <br> VY 320</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>639 <br> 145 <br> 3692</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>M <br> M <br> M</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> MJR4R1SO <br> MJR4R1SO <br> MJR4R1SO </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DOH <br> DOH - BCN <br> BCN - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T03:45:00 <br> 2022-11-22T07:45:00 <br> 2022-11-22T16:10:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T06:40:00 <br> 2022-11-22T12:50:00<br> 2022-11-22T18:00:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>19H 15M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>1564.80</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1281,38 +1329,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EY 789 <br> EY 32A <br> AZ 320</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>235 <br> 91 <br> 3000</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>Y <br> Y <br> Y</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> YF1OW <br> YF1OW <br> YF1OW </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - AUH <br> AUH - ATH <br> ATH - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T05:00:00 <br> 2022-11-22T09:25:00 <br> 2022-11-22T19:30:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T08:00:00 <br> 2022-11-22T12:55:00<br> 2022-11-22T20:40:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>20H 40M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>3817.26</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1320,38 +1368,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EK 77W <br> GF 789 <br> GF 31N</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>587 <br> 513 <br> 27</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>Y <br> W <br> W</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> YOWBD7 <br> YOWBD7 <br> YOWBD7 </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DXB <br> DXB - BAH <br> BAH - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T18:40:00 <br> 2022-11-22T23:35:00 <br> 2022-11-23T01:40:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T22:10:00 <br> 2022-11-22T23:59:00<br> 2022-11-23T05:50:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>16H 10M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>4246.56</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1359,38 +1407,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EK 77W <br> EK 388 <br> LH 32N</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>583 <br> 47 <br> 242</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>Y <br> Y <br> J</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> YOWBD7 <br> YOWBD7 <br> JFF77WW </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DXB <br> DXB - FRA <br> FRA - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T09:55:00 <br> 2022-11-22T15:25:00 <br> 2022-11-22T20:50:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T13:20:00 <br> 2022-11-22T19:30:00<br> 2022-11-22T22:35:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>17H 40M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>6046.89</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1398,38 +1446,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EK 77W <br> EK 388 <br> CL CR9</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>583 <br> 47 <br> 4373</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>Y <br> Y <br> J</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> YOWBD7 <br> YOWBD7 <br> JFF77WW </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DXB <br> DXB - FRA <br> FRA - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T09:55:00 <br> 2022-11-22T15:25:00 <br> 2022-11-22T22:00:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T13:20:00 <br> 2022-11-22T19:30:00<br> 2022-11-22T23:00:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>18H 05M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>6046.89</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1437,38 +1485,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EK 77W <br> EK 388 <br> LH 32N</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>583 <br> 8047 <br> 242</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>Y <br> Y <br> J</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> YOWBD7 <br> YOWBD7 <br> JFF77WW </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DXB <br> DXB - FRA <br> FRA - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T09:55:00 <br> 2022-11-22T15:25:00 <br> 2022-11-22T20:50:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T13:20:00 <br> 2022-11-22T19:30:00<br> 2022-11-22T22:35:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>17H 40M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>6032.50</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1476,38 +1524,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EK 77W <br> EK 388 <br> CL CR9</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>583 <br> 8047 <br> 4373</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>Y <br> Y <br> J</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> YOWBD7 <br> YOWBD7 <br> JFF77WW </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DXB <br> DXB - FRA <br> FRA - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T09:55:00 <br> 2022-11-22T15:25:00 <br> 2022-11-22T19:30:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T13:20:00 <br> 2022-11-22T19:30:00<br> 2022-11-22T23:00:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>18H 05M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>6232.50</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1515,38 +1563,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EK 77W <br> EK 77W <br> LH 319</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>585 <br> 8045 <br> 4280</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>Y <br> Y <br> J</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> YOWBD7 <br> YOWBD7 <br> JFF77WW </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DXB <br> DXB - FRA <br> FRA - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T01:00:00 <br> 2022-11-22T08:40:00 <br> 2022-11-22T16:00:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T04:25:00 <br> 2022-11-22T12:45:00<br> 2022-11-22T17:40:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>21H 40M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>6232.50</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
@@ -1554,38 +1602,38 @@
           </tr>
           <tr class="text-right border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-100">
             <td class="px-3 py-2 text-left">
-              <span>TK 333 <br> TK 73H</span>
+              <span>EK 77W <br> EK 77W <br> AZ 32S</span>
             </td>
             <td class="px-3 py-2 text-left">
-              <span>723 <br> 1865</span>
+              <span>585 <br> 135 <br> 1462</span>
             </td>
             <td class="px-3 py-2">
-              <span>E <br> E</span>
+              <span>J <br> J <br> E</span>
             </td>
             <td class="px-3 py-2">
-              <span> EF1PXOW <br> EF1PXOW</span>
+              <span> JOWBD7 <br> JOWBD7 <br> JOWBD7 </span>
             </td>
             <td class="px-3 py-2">
-              <span>DAC - IST <br> IST - FCO</span>
+              <span>DAC - DXB <br> DXB - VCE <br> VCE - FCO</span>
             </td>
             <td class="px-3 py-2 text-right">
-              <span>2022-11-22T23:30:00 <br> 2022-11-23T12:55:00</span>
+              <span>2022-11-22T01:00:00 <br> 2022-11-22T09:35:00 <br> 2022-11-22T15:15:00</span>
             </td>
             <td class="px-3 py-2">
-              <span>2022-11-23T05:40:00 <br> 2022-11-23T13:30:00</span>
+              <span>2022-11-22T04:25:00 <br> 2022-11-22T13:15:00<br> 2022-11-22T16:25:00</span>
             </td>
             <td class="px-3 py-2">
-              <span> — <BR> — </span>
+              <span> .... <br> .... <br> .... </span>
             </td>
             <td class="px-3 py-2">
-              <span>19H 00M</span>
+              <span>20H 25M</span>
             </td>
             <td class="px-3 py-2">
-              <span>632</span>
+              <span>9198.86</span>
               <span>
-                <div class="flex justify-evenly gap-10">
-                  <div class="inline-flex items-center">
-                    <button class="bg-blue-700 px-7 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
+                <div class="flex justify-end">
+                  <div class="inline-flex items-end">
+                    <button class="bg-blue-700 px-4 py-1 text-white right-0 border-black border-l-[1px] border-[1px]">SELECT</button>
                   </div>
                 </div>
               </span>
