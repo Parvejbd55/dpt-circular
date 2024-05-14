@@ -1,30 +1,65 @@
-# Assessment test for Frontend Developer
+# Frontend Developer Assessment -
 
-1. Fork this repository.
-2. Clone this repository to your local machine.
-3. Check data and image folder.
-4. Follow the image first. There is a search form and formated data.
-5. You need to create a flight search form with HTML, CSS and Tailwind CSS.
-6. On form submit get the json data privided inside data folder.
-7. Parse and show your data according to the image provided.
+Project Overview -
 
-==============================================================
+This project involves creating a flight search form using HTML, CSS, and Tailwind CSS, based on the provided image. Upon form submission, the JSON data from the data folder is parsed and displayed according to the image format.
 
--   Follow https://flightexpert.com or https://gozayaan.com to understand what are we doing.
--   Do not copy Flight Expert or Go Zayaan, just get idea and follow the image we have given.
--   LHR = Heathrow Airport, CDG = Paris Charles de Gaulle Airport.
--   You do not need to make the form dynamic or filter anything, Just parse the data.
+Setup Instructions-
 
-==============================================================
+1. Fork and Clone the Repository
+git clone https://github.com/Parvejbd55/dpt-circular
 
--   Complete this task using fresh laravel/Vue JS/React JS or any other language.
--   Update your readme file how can we run the proejct.
--   Mention how much time have you spent for this to complete.
--   Mention the best practices you've implemented in your code.
--   Provide URLs for two of your live frontend projects.
--   Share links to your top two personal Git repositories.
+2. Install Dependencies
+npm install
 
-==============================================================
+3. Run the Project
+npm start
 
--   Upload your code on github and send us link.
--   Video guideline:- https://www.loom.com/share/87a2a73e58484f18b08b47ad5af55e99
+Best Practices Implemented -
+
+1. Code Organization
+
+. Ensured the code is well-organized and follows industry-standard formatting conventions.
+. Structured the project into modular components for better maintainability and reusability.
+
+2. Naming Conventions - 
+
+. Used descriptive and meaningful names for variables and functions to enhance readability and convey their purpose.
+
+3. Efficiency and Clarity - 
+
+. Strived for succinct and efficient solutions without sacrificing clarity.
+. Utilized a component-based approach to structure the code for scalability and maintainability.
+
+4. Error Handling -
+
+. Implemented robust error handling mechanisms to ensure code stability.
+
+5. Code Optimization -
+
+. Optimized the code for performance and efficiency where possible.
+
+6. Documentation -
+
+. Provided clear and concise comments to explain complex logic or functionality.
+. Maintained a clean and well-documented Git repository with meaningful commit messages and proper branching strategies.
+
+Live Projects -
+
+. Project 1: https://github.com/Parvejbd55/e-school
+
+. Project 2 : https://github.com/Parvejbd55/hot-gadgets
+
+Top Git Repositories -
+
+Repository 1 : https://github.com/Parvejbd55/panda-commerce
+
+Repository 2: https://github.com/Parvejbd55/web-portfolio
+
+Time Spent -
+. I spent approximately 10 hours completing this task.
+
+Running the Project -
+To run this project, follow the setup instructions above. Ensure you have Node.js installed on your machine.
+
+Thank you for reviewing my submission. Please feel free to reach out if you have any questions.
